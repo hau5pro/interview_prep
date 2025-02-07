@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/valid-parentheses/
+// #stack
 
 async function script2() {
   // script here

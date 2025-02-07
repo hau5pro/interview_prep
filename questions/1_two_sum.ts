@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/two-sum/description/
+// #array
 
 async function script1() {
   // script here
