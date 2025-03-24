@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/valid-palindrome
-// #strings
+// #string
 
 async function script5() {
   // script here
