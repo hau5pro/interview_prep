@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/balanced-binary-tree/description/
 // #binary_tree #dfs
 
-import { TreeNode } from "./data_structures/tree_node";
+import { TreeNode } from "../data_structures/tree_node";
 
 async function script11() {
   // script here
