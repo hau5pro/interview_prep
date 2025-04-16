@@ -1,6 +1,8 @@
 // https://leetcode.com/problems/invert-binary-tree/
 // #binary_tree
 
+import { TreeNode } from "../data_structures/tree_node";
+
 async function script6() {
   // script here
   const tree = new TreeNode(2, new TreeNode(1), new TreeNode(3));
