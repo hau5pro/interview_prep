@@ -1,14 +1,7 @@
 // https://leetcode.com/problems/merge-two-sorted-lists/
 // #linked_list
 
-class ListNode {
-  val: number;
-  next: ListNode | null;
-  constructor(val?: number, next?: ListNode | null) {
-    this.val = val === undefined ? 0 : val;
-    this.next = next === undefined ? null : next;
-  }
-}
+import { ListNode } from "../data_structures/list_node";
 
 async function script3() {
   // script here
