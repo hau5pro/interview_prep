@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/linked-list-cycle/
 // #linked_list
 
-import { ListNode } from "./data_structures/list_node";
+import { ListNode } from "../data_structures/list_node";
 
 async function script12() {
   // script here
