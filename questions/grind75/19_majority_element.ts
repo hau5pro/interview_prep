@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/majority-element/
 // #array
 
-async function script19() {
+async function g75_19() {
   // script here
   const res = majorityElement([3, 2, 3]);
   console.log(res);
@@ -50,9 +50,7 @@ function majorityElement(nums: number[]): number {
 //   }
 // }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script19().catch((error) => {
+g75_19().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 // #array #sliding_window
 
-async function script4() {
+async function g75_04() {
   // script here
   const res = maxProfit([7, 1, 5, 3, 6, 4]);
   console.log(res);
@@ -50,9 +50,7 @@ function maxProfit(prices: number[]): number {
 //   return maxProfit;
 // }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script4().catch((error) => {
+g75_04().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

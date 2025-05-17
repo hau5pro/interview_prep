@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/insert-interval/
 // #array
 
-async function script26() {
+async function g75_26() {
   // script here
   const res = insert(
     [
@@ -50,9 +50,7 @@ function insert(intervals: number[][], newInterval: number[]): number[][] {
   return result;
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script26().catch((error) => {
+g75_26().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

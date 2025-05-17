@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/flood-fill/
 // #dfs #arrays
 
-async function script9() {
+async function g75_09() {
   // script here
   const res = floodFill(
     [
@@ -57,9 +57,7 @@ function fill(
   fill(image, sr, sc + 1, originalColor, color);
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script9().catch((error) => {
+g75_09().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

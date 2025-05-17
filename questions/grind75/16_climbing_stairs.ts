@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/climbing-stairs/
 // #dp
 
-async function script16() {
+async function g75_16() {
   // script here
   const res = climbStairs(5);
   console.log(res);
@@ -31,9 +31,7 @@ function climbStairs(n: number): number {
   return combinations;
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script16().catch((error) => {
+g75_16().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

@@ -3,7 +3,7 @@
 
 import { TreeNode } from "../../data_structures/tree_node";
 
-async function script10() {
+async function g75_10() {
   // script here
   const res = lowestCommonAncestor(
     {
@@ -81,9 +81,7 @@ function dfs(
   }
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script10().catch((error) => {
+g75_10().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

@@ -3,7 +3,7 @@
 
 import { ListNode } from "../../data_structures/list_node";
 
-async function script3() {
+async function g75_03() {
   // script here
 
   const list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
@@ -41,9 +41,7 @@ function mergeTwoLists(
   return head.next;
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script3().catch((error) => {
+g75_03().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

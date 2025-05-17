@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/longest-palindrome/
 // #string
 
-async function script17() {
+async function g75_17() {
   // script here
   const res = longestPalindrome("abccccdd");
   console.log(res);
@@ -39,9 +39,7 @@ function longestPalindrome(s: string): number {
   return result;
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script17().catch((error) => {
+g75_17().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

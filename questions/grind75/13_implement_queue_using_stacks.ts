@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/implement-queue-using-stacks/
 // #queue #stack
 
-async function script13() {
+async function g75_13() {
   // script here
   const queue = new MyQueue();
   console.log(`1. push ${queue.push(1)}`);
@@ -52,9 +52,7 @@ class MyQueue {
   }
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script13().catch((error) => {
+g75_13().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

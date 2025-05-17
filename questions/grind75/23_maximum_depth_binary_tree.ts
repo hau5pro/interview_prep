@@ -3,7 +3,7 @@
 
 import { TreeNode } from "../../data_structures/tree_node";
 
-async function script23() {
+async function g75_23() {
   // script here
   const res = maxDepth(
     new TreeNode(
@@ -32,9 +32,7 @@ function maxDepth(root: TreeNode | null): number {
   return 1 + Math.max(leftDepth, rightDepth);
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script23().catch((error) => {
+g75_23().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

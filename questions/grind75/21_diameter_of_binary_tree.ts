@@ -3,7 +3,7 @@
 
 import { TreeNode } from "../../data_structures/tree_node";
 
-async function script21() {
+async function g75_21() {
   // script here
   // const res = diameterOfBinaryTree(
   //   new TreeNode(
@@ -40,9 +40,7 @@ function getDepth(node: TreeNode | null) {
   return Math.max(leftDepth, rightDepth);
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script21().catch((error) => {
+g75_21().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

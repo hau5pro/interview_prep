@@ -1,7 +1,7 @@
 //
 //
 
-async function script() {
+async function g75_() {
   // script here
 
   console.log("done");
@@ -11,9 +11,7 @@ async function script() {
 // time O()
 // space O()
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script().catch((error) => {
+g75_().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

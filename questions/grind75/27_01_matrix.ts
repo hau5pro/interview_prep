@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/01-matrix/
 // #matrix #bfs
 
-async function script27() {
+async function g75_27() {
   // script here
   const res = updateMatrix([
     [0, 0, 0],
@@ -66,9 +66,7 @@ function neighboringValue(value?: number) {
   return !!value && value === 0;
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script27().catch((error) => {
+g75_27().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

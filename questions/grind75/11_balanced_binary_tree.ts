@@ -3,7 +3,7 @@
 
 import { TreeNode } from "../../data_structures/tree_node";
 
-async function script11() {
+async function g75_11() {
   // script here
   const res = isBalanced(
     new TreeNode(
@@ -38,9 +38,7 @@ function dfs(root: TreeNode | null): number {
   return Math.max(leftHeight, rightHeight) + 1;
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script11().catch((error) => {
+g75_11().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

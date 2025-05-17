@@ -3,7 +3,7 @@
 
 import { ListNode } from "../../data_structures/list_node";
 
-async function script18() {
+async function g75_18() {
   // script here
   const res = reverseList(
     new ListNode(
@@ -34,9 +34,7 @@ function reverseList(head: ListNode | null): ListNode | null {
   return prev;
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script18().catch((error) => {
+g75_18().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

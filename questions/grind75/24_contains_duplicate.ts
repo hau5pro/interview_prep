@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/contains-duplicate/
 // #array
 
-async function script24() {
+async function g75_24() {
   // script here
   const res = containsDuplicate([2, 14, 18, 22, 22]);
   console.log(res);
@@ -47,9 +47,7 @@ function containsDuplicate(nums: number[]): boolean {
 //   return containsDuplicate;
 // }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script24().catch((error) => {
+g75_24().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

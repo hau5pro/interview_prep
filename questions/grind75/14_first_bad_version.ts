@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/first-bad-version/
 // #binary_search
 
-async function script14() {
+async function g75_14() {
   // script here
   const res = solution(5);
   console.log(res);
@@ -34,9 +34,7 @@ var solution = function (isBadVersion: any) {
   };
 };
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script14().catch((error) => {
+g75_14().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

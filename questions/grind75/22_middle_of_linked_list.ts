@@ -3,7 +3,7 @@
 
 import { ListNode } from "../../data_structures/list_node";
 
-async function script22() {
+async function g75_22() {
   // script here
   const res = middleNode(
     new ListNode(
@@ -54,9 +54,7 @@ function middleNode(head: ListNode | null): ListNode | null {
 //   return array[middle - 1];
 // }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script22().catch((error) => {
+g75_22().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/add-binary/
 // #string
 
-async function script20() {
+async function g75_20() {
   // script here
   const res = addBinary("11", "1");
   console.log(res);
@@ -51,9 +51,7 @@ function getValue(a: string, i: number): number {
   return Number(a[a.length - 1 - i] ?? 0);
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script20().catch((error) => {
+g75_20().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

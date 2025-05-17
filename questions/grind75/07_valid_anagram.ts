@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/valid-anagram/
 // #string #hash_map
 
-async function script7() {
+async function g75_07() {
   // script here
   // const res = isAnagram("anagram", "nagaram");
   const res = isAnagram("rat", "car");
@@ -46,9 +46,7 @@ function isAnagram(s: string, t: string): boolean {
   return isAnagram;
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script7().catch((error) => {
+g75_07().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

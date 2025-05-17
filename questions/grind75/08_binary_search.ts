@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/binary-search/
 // #binary_search
 
-async function script8() {
+async function g75_08() {
   // script here
   const res = search([-1, 0, 3, 5, 9, 12], 9);
   console.log(res);
@@ -29,9 +29,7 @@ function search(nums: number[], target: number): number {
   return -1;
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script8().catch((error) => {
+g75_08().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

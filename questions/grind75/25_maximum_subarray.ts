@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/maximum-subarray/
 // #array
 
-async function script25() {
+async function g75_25() {
   // script here
   const res = maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]);
   console.log(res);
@@ -45,9 +45,7 @@ function maxSubArray(nums: number[]): number {
 //   return max;
 // }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script25().catch((error) => {
+g75_25().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

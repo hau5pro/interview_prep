@@ -3,7 +3,7 @@
 
 import { ListNode } from "../../data_structures/list_node";
 
-async function script12() {
+async function g75_12() {
   // script here
   const d = new ListNode(-4);
   const c = new ListNode(0, d);
@@ -39,9 +39,7 @@ function hasCycle(head: ListNode | null): boolean {
   return false;
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script12().catch((error) => {
+g75_12().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

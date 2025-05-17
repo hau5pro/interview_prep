@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/valid-parentheses/
 // #stack
 
-async function script2() {
+async function g75_02() {
   // script here
   const res = isValid("([)]");
   console.log(res);
@@ -36,9 +36,7 @@ function isValid(s: string): boolean {
   return stack.length === 0;
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script2().catch((error) => {
+g75_02().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

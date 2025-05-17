@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/valid-palindrome
 // #string
 
-async function script5() {
+async function g75_05() {
   // script here
   const res = isPalindrome("ab_a");
   console.log(res);
@@ -66,9 +66,7 @@ function isPalindrome(s: string): boolean {
 //   return res;
 // }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script5().catch((error) => {
+g75_05().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

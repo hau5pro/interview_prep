@@ -3,7 +3,7 @@
 
 import { TreeNode } from "../../data_structures/tree_node";
 
-async function script6() {
+async function g75_06() {
   // script here
   const tree = new TreeNode(2, new TreeNode(1), new TreeNode(3));
   const res = invertTree(tree);
@@ -26,9 +26,7 @@ function invertTree(root: TreeNode | null): TreeNode | null {
   return root;
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script6().catch((error) => {
+g75_06().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

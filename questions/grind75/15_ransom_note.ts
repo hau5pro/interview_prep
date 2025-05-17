@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/ransom-note
 // #string
 
-async function script15() {
+async function g75_15() {
   // script here
   const res = canConstruct("aa", "aab");
   console.log(res);
@@ -38,9 +38,7 @@ function canConstruct(ransomNote: string, magazine: string): boolean {
   return result;
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-script15().catch((error) => {
+g75_15().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
