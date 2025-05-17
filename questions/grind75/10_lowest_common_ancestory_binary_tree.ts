@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/
 // #binary_tree #dfs
 
-import { TreeNode } from "../data_structures/tree_node";
+import { TreeNode } from "../../data_structures/tree_node";
 
 async function script10() {
   // script here

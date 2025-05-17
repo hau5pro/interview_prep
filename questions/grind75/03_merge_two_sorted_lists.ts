@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/merge-two-sorted-lists/
 // #linked_list
 
-import { ListNode } from "../data_structures/list_node";
+import { ListNode } from "../../data_structures/list_node";
 
 async function script3() {
   // script here

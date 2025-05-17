@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/reverse-linked-list/description/
 // #linked_list
 
-import { ListNode } from "../data_structures/list_node";
+import { ListNode } from "../../data_structures/list_node";
 
 async function script18() {
   // script here

@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/middle-of-the-linked-list/
 // #linked_list
 
-import { ListNode } from "../data_structures/list_node";
+import { ListNode } from "../../data_structures/list_node";
 
 async function script22() {
   // script here
