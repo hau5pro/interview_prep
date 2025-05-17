@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/k-closest-points-to-origin/
 // #array
 
-async function script() {
+async function script28() {
   // script here
   const res = kClosest(
     [
@@ -34,7 +34,7 @@ function kClosest(points: number[][], k: number): number[][] {
 
 // We recommend this pattern to be able to use async/await everywhere
 // and properly handle errors.
-script().catch((error) => {
+script28().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
