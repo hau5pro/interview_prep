@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/middle-of-the-linked-list/
-// #linked_list
+// #linked_list ##two_pointer
 
 import { ListNode } from "../../data_structures/list_node";
 
