@@ -13,7 +13,7 @@ async function g75_17() {
 // time O(n)
 // space O(1)
 
-function longestPalindrome(s: string): number {
+export function longestPalindrome(s: string): number {
   const map: { [letter: string]: number } = {};
   let oddFound = false;
   let result = 0;
