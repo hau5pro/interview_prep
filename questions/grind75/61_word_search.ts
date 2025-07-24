@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/word-search/
 // #dfs
 
-async function g75_() {
+async function g75_61() {
   // script here
   const res = exist(
     [
@@ -71,7 +71,7 @@ function exist(board: string[][], word: string): boolean {
   return false;
 }
 
-g75_().catch((error) => {
+g75_61().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
