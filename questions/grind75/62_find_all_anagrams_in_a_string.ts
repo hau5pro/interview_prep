@@ -60,7 +60,7 @@ function findAnagrams(s: string, p: string): number[] {
   return result;
 }
 
-// O(m x n) brutish force
+// time: O(m x n) brutish force
 // function findAnagrams(s: string, p: string): number[] {
 //   const result: number[] = [];
 
