@@ -6,9 +6,10 @@
   "configurations": [
     {
       "command": "npm run script",
-      "name": "Debug Script",
+      "name": "Debug TS",
       "request": "launch",
-      "type": "node-terminal"
+      "type": "node-terminal",
+      "cwd": "${workspaceFolder}/typescript"
     }
   ]
 }
