@@ -134,3 +134,7 @@ dist
 # direnv
 .envrc
 .direnv/
+
+# Go
+golang/bin/
+*.exe
