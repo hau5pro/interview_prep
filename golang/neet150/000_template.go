@@ -7,6 +7,8 @@ import "fmt"
 // Link: url
 // #tag
 
+// Time: O(n)
+// Space: O(n)
 func N0() error {
 	res := solve()
 	fmt.Println(res)
